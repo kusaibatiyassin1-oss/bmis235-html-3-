@@ -31,6 +31,7 @@ nav img {
     height: 50px;
     margin: 8px;
     vertical-align: middle;
+   border-radius:8px;
 }
 
 /* no underline or border around the image links */
@@ -41,7 +42,7 @@ nav a {
 h1 {
     color: #000000;
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 p {

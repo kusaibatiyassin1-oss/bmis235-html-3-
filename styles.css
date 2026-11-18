@@ -11,7 +11,7 @@
 
 body {
     font-family: Georgia, "Arial", serif;
-    background-color: #FDA785;
+    background-color: ##FFFFFF;
     color: #000000;
     margin: 0;
     padding: 0 20px 40px 20px;
@@ -20,7 +20,7 @@ body {
 /* the menu at the top of every page */
 nav {
     background-color: #FDA785;
-    padding: 16px;
+    padding: 14px;
     text-align: center;
 }
 

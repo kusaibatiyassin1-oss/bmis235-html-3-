@@ -348,67 +348,6 @@
   }
 </style>
 
-<!-- HTML: Builds the initial Syrian flag welcome modal, top bar, interactive SVG map with city pins, and city details panel -->
-<div class="syria-popup-overlay" id="syriaFlagPopup">
-  <div class="syria-popup-card">
-    <svg class="syria-flag-svg" viewBox="0 0 300 180" aria-label="Flag of Syria">
-      <rect width="300" height="60" y="0" fill="#007A3D"/>
-      <rect width="300" height="60" y="60" fill="#FFFFFF"/>
-      <rect width="300" height="60" y="120" fill="#000000"/>
-      <polygon fill="#CE1126" points="75,74 79,86 92,86 81,93 85,105 75,98 65,105 69,93 58,86 71,86"/>
-      <polygon fill="#CE1126" points="150,74 154,86 167,86 156,93 160,105 150,98 140,105 144,93 133,86 146,86"/>
-      <polygon fill="#CE1126" points="225,74 229,86 242,86 231,93 235,105 225,98 215,105 219,93 208,86 221,86"/>
-    </svg>
-    <div class="syria-popup-title">Welcome to Syria</div>
-    <div class="syria-popup-sub">Discover the history, culture, and heritage of Damascus, Aleppo, and Idlib.</div>
-    <button type="button" class="syria-enter-btn" id="syriaClosePopupBtn">Explore Cities</button>
-  </div>
-</div>
-
-<div class="syria-header">
-  <div class="syria-header-title">Explore Syria's Historic Cities</div>
-  <button type="button" class="syria-flag-replay" id="syriaShowFlagBtn">Show Flag</button>
-</div>
-
-<div class="syria-main">
-  <div class="syria-map-box">
-    <svg class="syria-map-svg" viewBox="0 0 300 240" aria-label="Interactive Map of Syria">
-      <!-- Stylized Silhouette of Syria -->
-      <path class="syria-country-shape" d="M 68,48 L 105,42 L 155,38 L 215,34 L 252,32 L 262,55 L 245,92 L 218,125 L 178,162 L 122,195 L 82,212 L 66,204 L 72,175 L 62,150 L 58,115 L 62,82 Z" />
-
-      <!-- Aleppo Pin -->
-      <g class="syria-pin is-active" data-city="aleppo" role="button" tabindex="0" aria-label="Select Aleppo">
-        <circle class="syria-pin-ring" cx="98" cy="56" r="10"/>
-        <circle class="syria-pin-dot" cx="98" cy="56" r="6"/>
-        <text class="syria-pin-label" x="110" y="60">Aleppo</text>
-      </g>
-
-      <!-- Idlib Pin -->
-      <g class="syria-pin" data-city="idlib" role="button" tabindex="0" aria-label="Select Idlib">
-        <circle class="syria-pin-ring" cx="76" cy="76" r="10"/>
-        <circle class="syria-pin-dot" cx="76" cy="76" r="6"/>
-        <text class="syria-pin-label" x="35" y="80">Idlib</text>
-      </g>
-
-      <!-- Damascus Pin -->
-      <g class="syria-pin" data-city="damascus" role="button" tabindex="0" aria-label="Select Damascus">
-        <circle class="syria-pin-ring" cx="80" cy="182" r="10"/>
-        <circle class="syria-pin-dot" cx="80" cy="182" r="6"/>
-        <text class="syria-pin-label" x="92" y="186">Damascus</text>
-      </g>
-    </svg>
-  </div>
-
-  <div class="syria-info-panel">
-    <div>
-      <div class="syria-city-tabs">
-        <button type="button" class="syria-tab-btn is-active" data-city="aleppo">Aleppo</button>
-        <button type="button" class="syria-tab-btn" data-city="damascus">Damascus</button>
-        <button type="button" class="syria-tab-btn" data-city="idlib">Idlib</button>
-      </div>
-      <div class="syria-city-name" id="syriaCityName">Aleppo</div>
-      <div class="syria-city-tag" id="syriaCityTag">Northern Cultural & Trade Hub</div>
-      <div class="syria-city-desc" id="syriaCityDesc">One of the oldest continuously inhabited cities in the world, famous for its stone architecture, vibrant culinary traditions, and historic covered markets.</div>
     </div>
 
 <!-- Footer: fill in your name -->

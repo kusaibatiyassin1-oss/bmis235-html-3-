@@ -36,7 +36,8 @@ nav img {
 
 /* no underline or border around the image links */
 nav a {
-    text-decoration: none;
+  text-decoration: underline;
+  font-style: italic;
 }
 
 h1 {

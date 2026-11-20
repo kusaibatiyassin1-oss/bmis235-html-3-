@@ -19,9 +19,14 @@ body {
 
 /* the menu at the top of every page */
 nav {
-    background-color: #2563EB;
+    background-color: #75893f;
     padding: 14px;
     text-align: center;
+     .menu,
+.menu ul {
+  border-radius: 12px;
+  overflow: hidden;
+}
 }
 
 /* every image inside the menu is forced to the same height.
@@ -32,11 +37,6 @@ nav img {
     margin: 8px;
     vertical-align: middle;
    border-radius:20px;
-   .menu,
-.menu ul {
-  border-radius: 12px;
-  overflow: hidden;
-}
 }
 
 /* no underline or border around the image links */

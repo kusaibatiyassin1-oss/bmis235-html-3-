@@ -32,6 +32,11 @@ nav img {
     margin: 8px;
     vertical-align: middle;
    border-radius:20px;
+   .menu,
+.menu ul {
+  border-radius: 12px;
+  overflow: hidden;
+}
 }
 
 /* no underline or border around the image links */

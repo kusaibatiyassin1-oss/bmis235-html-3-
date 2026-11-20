@@ -10,9 +10,9 @@
    ===================================================================== */
 
 body {
-    font-family: Georgia, "Arial", serif; git commit -m "Changed font to Arial"
+    font-family: Georgia, "Arial", serif; 
     background-color: #E5D8C5;
-    color: #000000; git commit -m "Changed the font color to Black"
+    color: #000000; git commit -m 
     margin: 0;
     padding: 0 20px 40px 20px;
 }
@@ -20,12 +20,12 @@ body {
 /* the menu at the top of every page */
 nav {
     background-color: #75893f; 
-    padding: 14px; git commit -m "Increase the space between the buttons"
+    padding: 14px; git commit -m 
     text-align: center;
      .menu,
 .menu ul {
   border-radius: 12px;
-  overflow: hidden; git commit -m "Rounded the corners for a better look"
+  overflow: hidden; 
 }
 }
 

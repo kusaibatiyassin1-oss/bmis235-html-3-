@@ -20,7 +20,9 @@ git commit -m "Change body font to Arial"
 
 /* the menu at the top of every page */
 nav {
-    background-color: #1E792C; 
+    background-color: #1E792C; git add .
+git commit -m "Change the background color to #0b6a3c"
+git push
     padding: 14px; 
     text-align: center;
 }

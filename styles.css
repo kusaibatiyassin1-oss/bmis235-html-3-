@@ -10,7 +10,8 @@
    ===================================================================== */
 
 body {
-    font-family: Georgia, "Arial", serif; 
+    font-family: Georgia, "Arial", serif; git add .
+git commit -m "Set body font family to Georgia with Arial fallback"
     background-color: #E5D8C5;
     color: #000000;
     margin: 0;

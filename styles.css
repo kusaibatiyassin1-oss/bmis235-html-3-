@@ -26,7 +26,7 @@ git push
    color: ##E5D8C5;
     padding: 14px; 
     text-align: center;
-   border-radius:50px;
+   border-radius:35px;
 }
 
 /* every image inside the menu is forced to the same height.
@@ -36,7 +36,7 @@ nav img {
     height: 80px;
     margin: 8px;
     vertical-align: middle;
-   border-radius:50px; git add .
+   border-radius:35px; git add .
 git commit -m "Add rounded corners to nav menu and clean up body CSS"
 git push 
 }

@@ -33,7 +33,9 @@ nav img {
     margin: 8px;
     vertical-align: middle;
    border-radius:30px;
-    margin-top: 30px;
+    margin-top: 30px; git add .
+git commit -m "Add rounded corners to nav menu and clean up body CSS"
+git push 
 }
 
 /* no underline or border around the image links */
